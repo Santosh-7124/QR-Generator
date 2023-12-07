@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Generator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="input">
+          <input
+            type="text"
+            placeholder="Enter the URL"
+            class="url"
+            id="urltext"
+          />
+          <button class="url_btn" id="urlbtn">
+            <img src="./images/icons8-send-100.png" class="enter" />
+          </button>
+        </div>
+
+        <div class="output" id="out">
+          <div class="qr-img">
+            <img id="imgbox" src="./images/qr_img.png" />
+          </div>
+          <div class="qr-btn">
+            <button id="Download">
+              <a href="fvefgbrfgrfbhrfbnb" download id="link">Download <i class="fa fa-download"></i> </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

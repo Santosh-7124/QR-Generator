@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #b1afff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: absolute;
+  top: 5%;
+  width: 400px;
+  max-height: 600px;
+  background-color: #c8ffd4;
+  border-radius: 1rem;
+}
+
+.input {
+  display: flex;
+  position: relative;
+}
+
+.url {
+  width: 100%;
+  height: 50px;
+  border-radius: 2rem;
+  margin: 10px 10px;
+  padding-left: 20px;
+  padding-right: 55px;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.url_btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+.enter {
+  width: 100%;
+}
+
+.qr-img {
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: #88cdd7;
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.qr-img img {
+  width: 100%;
+}
+
+.qr-btn {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-btn button {
+  width: 80%;
+  font-size: 40px;
+  background-color: #88cdd7;
+  border: 0;
+  outline: 0;
+  border-radius: 1rem;
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  cursor: pointer;
+}
+.qr-btn button a {
+  text-decoration: none;
+  color: white;
+}
+
+.output {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .card {
+    width: 300px;
+  }
+
+  .qr-btn button {
+    font-size: 20px;
+  }
+
+  .url {
+    font-size: 16px;
+  }
+}
